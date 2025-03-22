@@ -21,10 +21,12 @@ public class Main {
         //prueba AutoElectrico
         System.out.println("Prueba auto electrico");
         AutoElectrico autoElectrico = new AutoElectrico("Tesla");
-        autoElectrico.acelerar(30);
-        //autoElectrico.cargarBateria();
-        autoElectrico.acelerar(30);
-        autoElectrico.frenar(20);
+        autoElectrico.acelerar(120);
+        autoElectrico.frenar(50);
+        autoElectrico.acelerar(100);
+        autoElectrico.cargarBateria();
+        autoElectrico.acelerar(100);
+
         System.out.println("====================================================");
 
         System.out.println("Prueba auto deportivo");

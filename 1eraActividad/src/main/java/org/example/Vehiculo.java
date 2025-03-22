@@ -9,7 +9,7 @@ across related classes while enforcing specific functionality in derived classes
 
 abstract class Vehiculo {
     //Atributos
-    final private String marca;
+    private final String marca;
     private int velocidad;
 
     //Constructor
