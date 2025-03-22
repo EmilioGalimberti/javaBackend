@@ -19,10 +19,20 @@ public class Main {
         System.out.println("====================================================");
 
         //prueba AutoElectrico
-        System.out.println("Prueba AutoElectrico");
+        System.out.println("Prueba auto electrico");
         AutoElectrico autoElectrico = new AutoElectrico("Tesla");
         autoElectrico.acelerar(30);
-        autoElectrico.cargarBateria();
+        //autoElectrico.cargarBateria();
         autoElectrico.acelerar(30);
+        autoElectrico.frenar(20);
+        System.out.println("====================================================");
+
+        System.out.println("Prueba auto deportivo");
+        Deportivo deportivo = new Deportivo("Ferrari");
+        deportivo.acelerar(20);
+        deportivo.frenar(20);
+        deportivo.activarTurbo(true);
+        deportivo.acelerar(20);
+
     }
 }
