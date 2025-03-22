@@ -9,12 +9,12 @@ across related classes while enforcing specific functionality in derived classes
 
 abstract class Vehiculo {
     //Atributos
-    private String marca;
+    final private String marca;
     private int velocidad;
 
     //Constructor
     public Vehiculo(String marca) {
-        this.marca = marca;
+        this.marca = marca;  // this se usa para referirse al objeto actual. Sin this, Java no sabría si te estás refiriendo al atributo o al parámetro.
         this.velocidad = 0;
     }
 
