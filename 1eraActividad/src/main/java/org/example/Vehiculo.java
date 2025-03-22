@@ -38,6 +38,12 @@ abstract class Vehiculo {
         }
     }
 
+/*
+Un méthod abstracto es un méthod que no tiene implementación en la clase abstracta.
+Su propósito es obligar a las clases hijas a proporcionar una implementación específica.
+Esto permite definir un comportamiento que debe ser común en las subclases, pero cuya 
+implementación puede variar entre ellas.
+*/
 
     public abstract void acelerar(int incremento);
 }
