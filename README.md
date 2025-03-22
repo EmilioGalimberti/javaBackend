@@ -32,3 +32,4 @@
 ### ejemplo
 
 `public abstract void acelerar(int incremento);`
+
