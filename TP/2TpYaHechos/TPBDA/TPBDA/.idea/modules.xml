@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TP Backend 2024/ApiGateway/ApiGateway.iml" filepath="$PROJECT_DIR$/TP Backend 2024/ApiGateway/ApiGateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TP Backend 2024/Reportes/Reportes.iml" filepath="$PROJECT_DIR$/TP Backend 2024/Reportes/Reportes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TP Backend 2024/TPBda.iml" filepath="$PROJECT_DIR$/TP Backend 2024/TPBda.iml" />
+    </modules>
+  </component>
+</project>
